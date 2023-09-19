@@ -1,0 +1,19 @@
+{
+  "name": "protocolos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "sv": "nodemon server.js",
+    "cli": "nodemon cliente.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

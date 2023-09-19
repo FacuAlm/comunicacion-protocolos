@@ -1,0 +1,23 @@
+{
+  "name": "grpc-protocolo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cliente.js",
+  "scripts": {
+    "cli": "nodemon cliente.js",
+    "sv": "nodemon server.js",
+    "compile-protos": "grpc_tools_node_protoc --js_out=import_style=commonjs,binary:./server --grpc_out=grpc_js:./server --proto_path=. example.proto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.3",
+    "google-protobuf": "^3.21.2",
+    "grpc-tools": "^1.12.4",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
