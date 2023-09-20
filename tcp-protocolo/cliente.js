@@ -14,7 +14,7 @@ client.on("connect", () => {
 
 client.on("data", (data) => {
   console.log("Mensaje recibido del servidor: " + data.toString());
-  // Aquí puedes agregar lógica adicional para manejar la respuesta del servidor
+ 
 });
 
 client.on("error", (err) => {
