@@ -1,6 +1,5 @@
 # comunicacion-protocolos
 
-Trabajo hecho entre los grupos de 
-Almaraz, Facundo - Falkievich, Thiago
+Comunicacion cliente-servidor con los protocolos HTTP, TCP y gRPC en JavaScript
 
-Villalba,Tomas- Selles,Jualiana - Selles, Joaquina
+Trabajo hecho entre los grupos de  Almaraz, Facundo - Falkievich, Thiago y Villalba,Tomas- Selles,Jualiana - Selles, Joaquina
